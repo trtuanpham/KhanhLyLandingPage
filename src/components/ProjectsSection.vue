@@ -1,19 +1,23 @@
 <script setup>
+import bridgeImg from '../assets/project-bridge.webp'
+import vanhDaiImg from '../assets/Vanh-Dai-2-Tphcm.jpg'
+import urbanBridgeImg from '../assets/project-urban-bridge.webp'
+
 const projects = [
   {
-    image: 'src/assets/project-bridge.webp',
+    image: bridgeImg,
     title: 'Cầu vượt sông liên tỉnh',
     location: 'Cần Thơ, Việt Nam',
     description: 'Thiết lập mạng lưới khống chế khảo sát và lập hồ sơ thiết kế chi tiết cho cầu bê tông dự ứng lực ba nhịp.',
   },
   {
-    image: 'src/assets/Vanh-Dai-2-Tphcm.jpg',
+    image: vanhDaiImg,
     title: 'Nâng cấp tuyến tránh quốc lộ',
     location: 'Bình Dương, Việt Nam',
     description: 'Khảo sát hành lang tuyến và tối ưu thiết kế hình học để cải thiện lưu thông, an toàn và kết nối vận tải hàng hóa.',
   },
   {
-    image: 'src/assets/project-urban-bridge.webp',
+    image: urbanBridgeImg,
     title: 'Mở rộng cầu trục chính đô thị',
     location: 'Đà Nẵng, Việt Nam',
     description: 'Đề xuất phương án mở rộng kết cấu và bản vẽ thi công theo giai đoạn để duy trì giao thông khi tăng năng lực thông hành.',

@@ -1,7 +1,12 @@
 <script setup>
+import designImg from '../assets/design.webp'
+import supervisionImg from '../assets/supervision.avif'
+import surveyImg from '../assets/survey-engineer.jpg'
+import labImg from '../assets/lab-testing.avif'
+
 const services = [
   {
-    image: '/src/assets/design.webp',
+    image: designImg,
     title: 'Thiết kế, Thẩm tra thiết kế',
     items: [
       { name: 'Dân dụng và Công nghiệp (Kiến trúc, Kết cấu, Điện, Cấp thoát nước)', rank: 'Hạng III' },
@@ -10,7 +15,7 @@ const services = [
     ],
   },
   {
-    image: '/src/assets/supervision.avif',
+    image: supervisionImg,
     title: 'Giám sát thi công xây dựng',
     items: [
       { name: 'Dân dụng và Công nghiệp', rank: 'Hạng III' },
@@ -20,7 +25,7 @@ const services = [
     ],
   },
   {
-    image: '/src/assets/survey-engineer.jpg',
+    image: surveyImg,
     title: 'Khảo sát',
     items: [
       { name: 'Khảo sát địa hình', rank: 'Hạng III' },
@@ -28,7 +33,7 @@ const services = [
     ],
   },
   {
-    image: '/src/assets/lab-testing.avif',
+    image: labImg,
     title: 'Thí nghiệm',
     items: [
       { name: 'Thử nghiệm kiểm tra vật liệu chất lượng công trình', rank: 'Hạng III' },
