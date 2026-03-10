@@ -3,9 +3,7 @@
     <div class="container about-grid">
       <div>
         <h2 class="section-title">Về chúng tôi</h2>
-        <p class="section-subtitle">
-          CÔNG TY TNHH TƯ VẤN KHẢO SÁT VÀ THIẾT KẾ XÂY DỰNG KHÁNH LY
-        </p>
+        <p class="section-subtitle">CÔNG TY TNHH TƯ VẤN KHẢO SÁT VÀ THIẾT KẾ XÂY DỰNG KHÁNH LY</p>
         <div class="company-info">
           <p><strong>Giấy CNĐKDN:</strong> 3701616836 (Cấp 22/09/2009)</p>
           <p><strong>Trụ sở chính:</strong> Số 44/50, đường 30/4, Thủ Dầu Một, HCM</p>
@@ -14,17 +12,11 @@
       </div>
 
       <div class="about-card">
+        <p>Công ty TNHH Tư vấn Khảo sát Thiết kế Xây dựng Khánh Ly chuyên cung cấp dịch vụ khảo sát, thiết kế và giám sát kỹ thuật cho các dự án giao thông, dân dụng, công nghiệp và hạ tầng.</p>
         <p>
-          Công ty TNHH Tư vấn Khảo sát Thiết kế Xây dựng Khánh Ly chuyên cung cấp dịch vụ khảo sát, 
-          thiết kế và giám sát kỹ thuật cho các dự án giao thông, dân dụng, công nghiệp và hạ tầng.
+          Với đội ngũ kỹ sư có trình độ cao và năng lực được chứng nhận, chúng tôi cam kết mang đến giải pháp thiết kế hiệu quả, đáp ứng đầy đủ yêu cầu kỹ thuật, mỹ thuật, an toàn và hiệu quả đầu tư.
         </p>
-        <p>
-          Với đội ngũ kỹ sư có trình độ cao và năng lực được chứng nhận, chúng tôi cam kết mang đến giải pháp thiết kế hiệu quả, 
-          đáp ứng đầy đủ yêu cầu kỹ thuật, mỹ thuật, an toàn và hiệu quả đầu tư. 
-        </p>
-        <p style="margin-top: 1rem; font-style: italic;">
-          <strong>Phương châm:</strong> Uy tín – Chất lượng – Hiệu quả
-        </p>
+        <p style="margin-top: 1rem; font-style: italic"><strong>Phương châm:</strong> Uy tín – Chất lượng – Hiệu quả</p>
       </div>
     </div>
   </section>

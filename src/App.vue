@@ -1,9 +1,9 @@
 <script setup>
-import HeroSection from './components/HeroSection.vue'
-import AboutSection from './components/AboutSection.vue'
-import ServicesSection from './components/ServicesSection.vue'
-import ProjectsSection from './components/ProjectsSection.vue'
-import ContactSection from './components/ContactSection.vue'
+import HeroSection from "./components/HeroSection.vue";
+import AboutSection from "./components/AboutSection.vue";
+import ServicesSection from "./components/ServicesSection.vue";
+import ProjectsSection from "./components/ProjectsSection.vue";
+import ContactSection from "./components/ContactSection.vue";
 </script>
 
 <template>
@@ -30,7 +30,7 @@ import ContactSection from './components/ContactSection.vue'
 
     <footer class="site-footer">
       <div class="container">
-        <p>© {{ new Date().getFullYear() }} Thiết Kế Xây Dựng Khánh Ly. Đồng hành cùng quy hoạch và thiết kế hạ tầng bền vững.</p>
+        <p>© {{ new Date().getFullYear() }} CÔNG TY TNHH TƯ VẤN KHẢO SÁT VÀ THIẾT KẾ XÂY DỰNG KHÁNH LY. Đồng hành cùng quy hoạch và thiết kế hạ tầng bền vững.</p>
       </div>
     </footer>
   </div>

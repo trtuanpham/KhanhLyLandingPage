@@ -37,9 +37,7 @@ const services = [
   {
     image: labImg,
     title: "Thí nghiệm kiểm tra vật liệu",
-    items: [
-      { name: "Thử nghiệm chất lượng vật liệu công trình", rank: "Hạng III" },
-    ],
+    items: [{ name: "Thử nghiệm chất lượng vật liệu công trình", rank: "" }],
   },
 ];
 </script>
