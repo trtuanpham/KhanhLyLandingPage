@@ -10,7 +10,7 @@ import ContactSection from "./components/ContactSection.vue";
   <div class="page-wrap">
     <header class="site-header">
       <div class="container nav-bar">
-        <a class="brand" href="#top">CÔNG TY TNHH TƯ VẤN KHẢO SÁT<br />VÀ THIẾT KẾ XÂY DỰNG KHÁNH LY</a>
+        <a class="brand" href="#top">CTY TNHH TƯ VẤN KHẢO SÁT<br />VÀ THIẾT KẾ XÂY DỰNG KHÁNH LY</a>
         <nav class="nav-links">
           <a href="#about">Giới thiệu</a>
           <a href="#services">Dịch vụ</a>
@@ -30,7 +30,7 @@ import ContactSection from "./components/ContactSection.vue";
 
     <footer class="site-footer">
       <div class="container">
-        <p>© {{ new Date().getFullYear() }} CÔNG TY TNHH TƯ VẤN KHẢO SÁT VÀ THIẾT KẾ XÂY DỰNG KHÁNH LY. Đồng hành cùng quy hoạch và thiết kế hạ tầng bền vững.</p>
+        <p>© {{ new Date().getFullYear() }} CTY TNHH TƯ VẤN KHẢO SÁT VÀ THIẾT KẾ XÂY DỰNG KHÁNH LY. Đồng hành cùng quy hoạch và thiết kế hạ tầng bền vững.</p>
       </div>
     </footer>
   </div>
