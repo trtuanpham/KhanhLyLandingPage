@@ -1,54 +1,54 @@
 <script setup>
-import designImg from '../assets/design.webp'
-import supervisionImg from '../assets/supervision.avif'
-import surveyImg from '../assets/survey-engineer.jpg'
-import labImg from '../assets/lab-testing.avif'
+import designImg from "../assets/design.webp";
+import supervisionImg from "../assets/supervision.avif";
+import surveyImg from "../assets/survey-engineer.jpg";
+import labImg from "../assets/lab-testing.avif";
 
 const services = [
   {
     image: designImg,
-    title: 'Thiết kế, Thẩm tra thiết kế',
+    title: "Thiết kế & Thẩm tra thiết kế",
     items: [
-      { name: 'Dân dụng và Công nghiệp (Kiến trúc, Kết cấu, Điện, Cấp thoát nước)', rank: 'Hạng III' },
-      { name: 'Giao thông (đường bộ)', rank: 'Hạng II' },
-      { name: 'Hạ tầng kỹ thuật (Cấp, thoát nước)', rank: 'Hạng II' },
+      { name: "Dân dụng & Công nghiệp (Kiến trúc, Kết cấu, Điện, Cấp thoát nước)", rank: "Hạng III" },
+      { name: "Giao thông (Đường bộ)", rank: "Hạng II" },
+      { name: "Giao thông (Cầu)", rank: "Hạng III" },
+      { name: "Hạ tầng kỹ thuật (Cấp, thoát nước)", rank: "Hạng II" },
     ],
   },
   {
     image: supervisionImg,
-    title: 'Giám sát thi công xây dựng',
+    title: "Giám sát thi công xây dựng",
     items: [
-      { name: 'Dân dụng và Công nghiệp', rank: 'Hạng III' },
-      { name: 'Giao thông (đường bộ)', rank: 'Hạng II' },
-      { name: 'Hạ tầng kỹ thuật (Cấp, thoát nước)', rank: 'Hạng II' },
-      { name: 'Hạ tầng kỹ thuật (điện chiếu sáng)', rank: 'Hạng III' },
+      { name: "Dân dụng & Công nghiệp", rank: "Hạng III" },
+      { name: "Giao thông (Đường bộ)", rank: "Hạng II" },
+      { name: "Giao thông (Cầu)", rank: "Hạng III" },
+      { name: "Hạ tầng kỹ thuật (Cấp, thoát nước)", rank: "Hạng II" },
+      { name: "Hạ tầng kỹ thuật (Chiếu sáng)", rank: "Hạng III" },
     ],
   },
   {
     image: surveyImg,
-    title: 'Khảo sát',
+    title: "Khảo sát xây dựng",
     items: [
-      { name: 'Khảo sát địa hình', rank: 'Hạng III' },
-      { name: 'Khảo sát địa chất', rank: 'Hạng II' },
+      { name: "Khảo sát địa hình", rank: "Hạng II" },
+      { name: "Khảo sát địa chất", rank: "Hạng III" },
     ],
   },
   {
     image: labImg,
-    title: 'Thí nghiệm',
+    title: "Thí nghiệm kiểm tra vật liệu",
     items: [
-      { name: 'Thử nghiệm kiểm tra vật liệu chất lượng công trình', rank: 'Hạng III' },
+      { name: "Thử nghiệm chất lượng vật liệu công trình", rank: "Hạng III" },
     ],
   },
-]
+];
 </script>
 
 <template>
   <section id="services" class="section services">
     <div class="container">
       <h2 class="section-title">Dịch vụ</h2>
-      <p class="section-subtitle">
-        Chúng tôi cung cấp dịch vụ xuyên suốt vòng đời dự án, từ khảo sát nền đến thiết kế kỹ thuật cuối cùng và hỗ trợ triển khai.
-      </p>
+      <p class="section-subtitle">Chúng tôi cung cấp dịch vụ xuyên suốt vòng đời dự án, từ khảo sát nền đến thiết kế kỹ thuật cuối cùng và hỗ trợ triển khai.</p>
 
       <div class="services-grid">
         <article v-for="service in services" :key="service.title" class="service-card">
@@ -101,7 +101,7 @@ const services = [
 
 .service-card h3 {
   margin: 0;
-  font-family: 'Be Vietnam Pro', 'Segoe UI', sans-serif;
+  font-family: "Be Vietnam Pro", "Segoe UI", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: var(--brand-deep);

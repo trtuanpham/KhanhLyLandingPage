@@ -7,20 +7,23 @@
           CÔNG TY TNHH TƯ VẤN KHẢO SÁT VÀ THIẾT KẾ XÂY DỰNG KHÁNH LY
         </p>
         <div class="company-info">
-          <p><strong>Người đại diện:</strong> Ông Đàm Trọng Xuân Anh</p>
-          <p><strong>Chức vụ:</strong> Phó giám đốc</p>
-          <p><strong>Mã số thuế:</strong> 3701616836</p>
+          <p><strong>Giấy CNĐKDN:</strong> 3701616836 (Cấp 22/09/2009)</p>
+          <p><strong>Trụ sở chính:</strong> Số 44/50, đường 30/4, Thủ Dầu Một, HCM</p>
+          <p><strong>Năng lực:</strong> Khảo sát (Hạng II-III), Thiết kế & Giám sát (Hạng II-III)</p>
         </div>
       </div>
 
       <div class="about-card">
         <p>
-          Công ty chúng tôi chuyên cung cấp dịch vụ tư vấn, khảo sát, thiết kế, thẩm tra và giám sát thi công 
-          cho các dự án dân dụng, công nghiệp, giao thông và hạ tầng kỹ thuật.
+          Công ty TNHH Tư vấn Khảo sát Thiết kế Xây dựng Khánh Ly chuyên cung cấp dịch vụ khảo sát, 
+          thiết kế và giám sát kỹ thuật cho các dự án giao thông, dân dụng, công nghiệp và hạ tầng.
         </p>
         <p>
-          Với đội ngũ kỹ sư giàu kinh nghiệm và năng lực được chứng nhận, chúng tôi cam kết cung cấp 
-          giải pháp kỹ thuật chất lượng cao, tuân thủ tiêu chuẩn và đáp ứng mọi yêu cầu của khách hàng.
+          Với đội ngũ kỹ sư có trình độ cao và năng lực được chứng nhận, chúng tôi cam kết mang đến giải pháp thiết kế hiệu quả, 
+          đáp ứng đầy đủ yêu cầu kỹ thuật, mỹ thuật, an toàn và hiệu quả đầu tư. 
+        </p>
+        <p style="margin-top: 1rem; font-style: italic;">
+          <strong>Phương châm:</strong> Uy tín – Chất lượng – Hiệu quả
         </p>
       </div>
     </div>
