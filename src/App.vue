@@ -10,7 +10,7 @@ import ContactSection from './components/ContactSection.vue'
   <div class="page-wrap">
     <header class="site-header">
       <div class="container nav-bar">
-        <a class="brand" href="#top">Thiết Kế Xây Dựng Khánh Ly</a>
+        <a class="brand" href="#top">CÔNG TY TNHH TƯ VẤN KHẢO SÁT<br />VÀ THIẾT KẾ XÂY DỰNG KHÁNH LY</a>
         <nav class="nav-links">
           <a href="#about">Giới thiệu</a>
           <a href="#services">Dịch vụ</a>
