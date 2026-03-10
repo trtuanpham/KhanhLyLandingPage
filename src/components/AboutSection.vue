@@ -3,7 +3,7 @@
     <div class="container about-grid">
       <div>
         <h2 class="section-title">Về chúng tôi</h2>
-        <p class="section-subtitle">CÔNG TY TNHH TƯ VẤN KHẢO SÁT VÀ THIẾT KẾ XÂY DỰNG KHÁNH LY</p>
+        <p class="section-subtitle">CTY TNHH TƯ VẤN KHẢO SÁT VÀ THIẾT KẾ XÂY DỰNG KHÁNH LY</p>
         <div class="company-info">
           <p><strong>Giấy CNĐKDN:</strong> 3701616836 (Cấp 22/09/2009)</p>
           <p><strong>Trụ sở chính:</strong> Số 44/50, đường 30/4, Thủ Dầu Một, HCM</p>
