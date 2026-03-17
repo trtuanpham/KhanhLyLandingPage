@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap');
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: url('/assets/fonts/google-font.woff2') format('woff2');
+  font-weight: 400 700;
+  font-display: swap;
+}
 
 :root {
   --bg: #e8edf1;
