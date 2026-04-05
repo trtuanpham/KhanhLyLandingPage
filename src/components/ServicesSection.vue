@@ -37,7 +37,17 @@ const services = [
   {
     image: labImg,
     title: "Thí nghiệm kiểm tra vật liệu",
-    items: [],
+    items: [
+      { name: "Chứng nhận đào tạo", file: new URL("../assets/scans/CHỨNG NHẬN ĐÀO TẠO.pdf", import.meta.url).href, isDocument: true },
+      { name: "Giấy chứng nhân hoàn thành", file: new URL("../assets/scans/GIẤY CHỨNG NHÂN HOÀN THÀNH.pdf", import.meta.url).href, isDocument: true },
+      { name: "Giấy đăng ký kinh doanh", file: new URL("../assets/scans/GIẤY ĐĂNG KÝ KINH DOANH.pdf", import.meta.url).href, isDocument: true },
+      {
+        name: "Mẫu số 01 - Thông tư năng lực đủ điều kiện hoạt động thí nghiệm",
+        file: new URL("../assets/scans/MẪU SỐ 01 TT NĂNG LỰC ĐỦ ĐK HĐỘNG THÍ NGHIỆM.pdf", import.meta.url).href,
+        isDocument: true,
+      },
+      { name: "Mẫu số 02 - Công bố thông tư dừng hoạt động thí nghiệm", file: new URL("../assets/scans/MẪU SỐ 02 CÔNG BỐ TT DỪNG HOẠT ĐỘNG THÍ NGHIỆM.pdf", import.meta.url).href, isDocument: true },
+    ],
   },
 ];
 </script>
@@ -45,7 +55,7 @@ const services = [
 <template>
   <section id="services" class="section services">
     <div class="container">
-      <h2 class="section-title">Dịch vụ</h2>
+      <h2 class="section-title">Dịch vụ 3333</h2>
       <p class="section-subtitle">Chúng tôi cung cấp dịch vụ xuyên suốt vòng đời dự án, từ khảo sát nền đến thiết kế kỹ thuật cuối cùng và hỗ trợ triển khai.</p>
 
       <div class="services-grid">
@@ -54,8 +64,14 @@ const services = [
           <h3>{{ service.title }}</h3>
           <ul class="service-items">
             <li v-for="(item, index) in service.items" :key="index">
-              <span class="item-name">{{ item.name }}</span>
-              <span class="item-rank">{{ item.rank }}</span>
+              <a v-if="item.isDocument" :href="item.file" download :title="`Tải ${item.name}`" class="download-link">
+                <span class="download-icon">📄</span>
+                <span class="item-name">{{ item.name }}</span>
+              </a>
+              <template v-else>
+                <span class="item-name">{{ item.name }}</span>
+                <span class="item-rank">{{ item.rank }}</span>
+              </template>
             </li>
           </ul>
         </article>
@@ -129,6 +145,24 @@ const services = [
   color: var(--accent);
   font-weight: 600;
   font-size: 0.85rem;
+}
+
+.download-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--brand-deep);
+  transition: color 0.2s ease;
+}
+
+.download-link:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.download-icon {
+  font-size: 1.1rem;
 }
 
 @media (max-width: 1060px) {

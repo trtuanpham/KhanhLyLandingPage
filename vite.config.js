@@ -5,8 +5,9 @@ import vue from "@vitejs/plugin-vue";
 export default defineConfig({
   base: "/",
   build: {
-    outDir: ".",
+    outDir: "dist",
     rollupOptions: {
+      input: "./index.html",
       output: {
         entryFileNames: "assets/[name].js",
         chunkFileNames: "assets/[name].js",
