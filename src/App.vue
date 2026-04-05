@@ -2,6 +2,7 @@
 import HeroSection from "./components/HeroSection.vue";
 import AboutSection from "./components/AboutSection.vue";
 import ServicesSection from "./components/ServicesSection.vue";
+import DocumentsSection from "./components/DocumentsSection.vue";
 import ProjectsSection from "./components/ProjectsSection.vue";
 import ContactSection from "./components/ContactSection.vue";
 </script>
@@ -14,6 +15,7 @@ import ContactSection from "./components/ContactSection.vue";
         <nav class="nav-links">
           <a href="#about">Giới thiệu</a>
           <a href="#services">Dịch vụ</a>
+          <a href="#documents">Tài liệu</a>
           <a href="#projects">Dự án</a>
           <a href="#contact">Liên hệ</a>
         </nav>
@@ -24,6 +26,7 @@ import ContactSection from "./components/ContactSection.vue";
       <HeroSection />
       <AboutSection />
       <ServicesSection />
+      <DocumentsSection />
       <ProjectsSection />
       <ContactSection />
     </main>
