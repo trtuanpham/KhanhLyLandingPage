@@ -16,6 +16,7 @@ import ContactSection from "./components/ContactSection.vue";
           <a href="#about">Giới thiệu</a>
           <a href="#services">Dịch vụ</a>
           <a href="#documents">Tài liệu</a>
+          <a href="#lab-qualifications">Công bố năng lực phòng LAB</a>
           <a href="#projects">Dự án</a>
           <a href="#contact">Liên hệ</a>
         </nav>
